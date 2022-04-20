@@ -112,15 +112,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
 }
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.65);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 #hero .hero-container {
   position: absolute;
   bottom: 0;
@@ -355,8 +346,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contact .social-links {
   margin-top: 15px;
-  display: flex;
-  justify-content: center;
 }
 .contact .social-links a {
   font-size: 18px;
